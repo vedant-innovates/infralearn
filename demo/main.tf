@@ -8,6 +8,7 @@ resource "aws_instance" "example" {
   instance_type = "t3.micro"
 }
 
+
 # Create S3 bucket
 resource "aws_s3_bucket" "example" {
   # NOTE: S3 bucket names must be unique across _all_ AWS accounts
